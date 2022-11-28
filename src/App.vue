@@ -1,12 +1,12 @@
 <template>
     <HelloWorld msg="Welcome to Your Vue.js App"/>
-<div class="graphs">
-        <div
+    <div class="graphs">
+      <div
           class="tableauPlaceholder"
           id="viz1664896244831"
           style="position: relative"
         >
-          <noscript
+        <noscript
             ><a href="#"
               ><img
                 alt="2022-2023 Premier League Expected Goals "
@@ -22,10 +22,10 @@
             <param
               name="name"
               value="2022-2023PremierLeagueExpectedGoals&#47;2022-2023PremierLeagueExpectedGoals"
-            />
-            <param name="tabs" value="no" />
-            <param name="toolbar" value="yes" />
-            <param
+              />
+              <param name="tabs" value="no" />
+              <param name="toolbar" value="yes" />
+              <param
               name="static_image"
               value="https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;20&#47;2022-2023PremierLeagueExpectedGoals&#47;2022-2023PremierLeagueExpectedGoals&#47;1.png"
             />
@@ -47,7 +47,9 @@
             "https://public.tableau.com/javascripts/api/viz_v1.js";
           vizElement.parentNode.insertBefore(scriptElement, vizElement);
         </component>
-      </div></template>
+      </div>
+
+</template>
 
 <script>
 import HelloWorld from './components/HelloWorld.vue'
@@ -69,4 +71,5 @@ export default {
   color: #2c3e50;
   margin-top: 60px;
 }
+
 </style>
