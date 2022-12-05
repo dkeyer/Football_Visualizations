@@ -1,7 +1,9 @@
 <template>
   <nav>
     <router-link to="/">Home</router-link> |
-    <router-link to="/about">About</router-link>
+    <router-link to="/about">About</router-link> |
+    <!-- <router-link to="/graphs">Graphs</router-link> | -->
+    <router-link to="/about">Contact</router-link>
   </nav>
   <router-view/>
 </template>
@@ -17,6 +19,7 @@
 
 nav {
   padding: 30px;
+  float: right;
 }
 
 nav a {
